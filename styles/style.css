@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans';
+}
+header{
+    background: #FFF4E7;
+
+}
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* Head Section Styles */
+.head-sec{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.head-title{
+    font-weight: 700;
+font-size: 64px;
+color: #131313;
+margin-top: 100px;
+}
+.head-desc{
+color: #727272;
+font-size: 16px;
+margin: 35px 0;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+font-size: 20px;
+}
+.head-sec img{
+display: block;
+width: 90%;
+margin: 0 auto;
+margin-top: 50px;
+padding-bottom: 45px;
+}
+/* Features Section Styles */
+.feature-sec{
+    display: flex;
+    width: 70%;
+    gap: 75px;
+    margin: 0 auto;
+    margin-top: 85px;
+    align-items: center;
+    justify-content: space-around;
+}
+.features-image{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 24px;
+row-gap: 24px;
+}
+.feature-img img{
+    width: 240px;
+}
+.feature-title{
+    font-weight: 500;
+font-size: 45px;
+}
+span{
+color: #FD6E0A;
+font-weight: 700;
+}
+.quick-list{
+    color: #507184;
+}
+.feature-desc{
+margin: 24px 0 32px 0;
+font-size: 16px;
+color: #727272;
+}
+/* Service Section Styles */
+.service-sec{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 55px;
+    margin-top: 130px;
+   align-items: center;
+}
+.service-sec-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.service-desc{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.services{
+padding: 15px 20px;
+box-shadow: 0px 0px 10px rgb(240, 234, 234);
+margin-bottom: 15px;
+}
+.service-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.service-description{
+font-size: 16px;
+color: #727272;
+}
+.service-img img{
+    width: 600px;
+}
+.btn-exp{
+    margin-top: -85px;
+    margin-left: -40px;
+}
+.btn{
+    font-weight: 700;
+font-size: 45px;
+padding: 30px 15px;
+}
+.btn p{
+    font-size: 16px;
+}
+/* Fact Section Styles */
+.fact-sec{
+    text-align: center;
+    width: 80%;
+}
+.fact-title{
+
+}
+.fact-desc{
+
+}
+.fact-details{
+display: flex;
+width: 80%;
+margin: 0 auto;
+}
+.fact-card{
+border: 1px solid greenyellow;
+}
