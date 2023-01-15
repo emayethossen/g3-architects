@@ -111,7 +111,7 @@ nav li a:hover {
 }
 
 .feature-img img {
-    width: 240px;
+    max-width: 240px;
 }
 
 .feature-title {
@@ -184,7 +184,7 @@ span {
 }
 
 .service-img img {
-    width: 600px;
+    max-width: 600px;
 }
 
 .btn-exp {
@@ -236,7 +236,8 @@ span {
     width: 220px;
     transition: transform 5s;
 }
-.fact-card:hover{
+
+.fact-card:hover {
     transform: rotate(360deg);
 }
 
@@ -274,7 +275,7 @@ span {
 .sponsor-card img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 135px;
+    max-width: 135px;
 }
 
 /* Team Members Section Styles */
@@ -443,12 +444,12 @@ span {
 
     .team-members-details {
         flex-direction: column;
-        width: 60%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .team-members {
         padding: 40px 20px;
-        width: 100%;
     }
 
     .team-sec {
